@@ -110,7 +110,7 @@ public final class TextFlowLabel: UILabel {
 
 
 extension TextFlowLabel {
-   func setLines(@LineBuilder _ builder: () -> [LineConfig]) {
+  public func setLines(@LineBuilder _ builder: () -> [LineConfig]) {
        self.lines = builder()
    }
 }
